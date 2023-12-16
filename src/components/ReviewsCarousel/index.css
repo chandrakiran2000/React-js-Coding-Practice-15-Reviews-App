@@ -1,0 +1,120 @@
+/* Write your code here */
+
+@media screen and (max-width: 768px) {
+  .bg-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+    font-family: 'Roboto';
+    padding-top: 50px;
+  }
+  .heading {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  .review-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left-arrow-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .arrow-img {
+    height: 30px;
+  }
+
+  .review-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .rev-img {
+    height: 110px;
+  }
+  .name {
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .role {
+    color: #171f46;
+    font-size: 18px;
+  }
+  .description {
+    font-size: 17px;
+    text-align: center;
+    color: #171f46;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+    font-family: 'Roboto';
+    padding-top: 50px;
+  }
+  .heading {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .review-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left-arrow-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  .arrow-img {
+    height: 50px;
+  }
+
+  .review-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .rev-img {
+    height: 150px;
+  }
+  .name {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .role {
+    color: #171f46;
+    font-size: 20px;
+  }
+  .description {
+    font-size: 17px;
+    text-align: center;
+    color: #171f46;
+  }
+}
